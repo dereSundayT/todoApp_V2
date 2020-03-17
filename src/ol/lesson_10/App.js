@@ -1,9 +1,9 @@
 import React from 'react';
 //import logo from './logo.svg';
 //import './App.css';
-import NavBar from './components/NavBar';
-import MainContent from './components/MainContent';
-import Footer from './components/Footer';
+import NavBar from '../components/NavBar';
+import MainContent from '../components/MainContent';
+import Footer from '../components/Footer';
 function App(){
   return (
     <div>
