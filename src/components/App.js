@@ -1,22 +1,15 @@
 import React from 'react';
+import TodoItem from './TodoItem';
 
 function App() {
   return (
-    <div>
-      <p>
-        <input type='checkbox' />
-        <span>Going To London</span>
-      </p>
+    <div className='todo-list'>
+      <TodoItem />
 
-      <p>
-        <input type='checkbox' />
-        <span>Going To London</span>
-      </p>
-
-      <p>
-        <input type='checkbox' />
-        <span>Going To London</span>
-      </p>
+      <TodoItem />
+      <TodoItem />
+      <TodoItem />
+      <TodoItem />
     </div>
   );
 }
