@@ -1,11 +1,11 @@
 import React from 'react';
 
-const TodoItem = () => {
+const TodoItem = ({todo}) => {
   return (
     <div className='todo-item'>
       <p>
-        <input type='checkbox' />
-        <span>Going To London</span>
+        <input type='checkbox' checked={todo.completed}/>
+        <span>{todo.text}</span>
       </p>
     </div>
   );
